@@ -7,8 +7,8 @@ const braintree = require('braintree');
 
 paypal.configure({
         'mode':'sandbox',
-        'client_id': "AaNg6AKySjSMDbfZU6MyJ9U_wOchdYa5tYeMG6AiscwPpVbBSyG7hBtFWDVU24q7B9BeFBJhrSe8KyqV",
-        'client_secret': "EFfkx-7ZwgsHhzR6IJ-YQiuXuqLf2LihygRJjDvpDgInBH_MQSTLNkMavjwa_LeYP2LQGgBGZ-9gPgZv"
+        'client_id': "",
+        'client_secret': ""
     })
     
     
@@ -108,9 +108,9 @@ app.get('/', (req, res)=>{
 
 const config = {
     environment:braintree.Environment.Sandbox,
-    merchantId:'nymd7nkr7tsng5sv',
-    publicKey: 'dymtjygwyyy6qg9b',
-    privateKey: 'b28bff96d38e60f99caea06516b0c069'
+    merchantId:'',
+    publicKey: '',
+    privateKey: ''
     
 };
 
